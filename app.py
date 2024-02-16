@@ -33,5 +33,5 @@ def main():
     chat = convert(chat)
     write_file("output.txt", chat)
 
-main()
-
+if __name__ == "__main__":
+    main()
